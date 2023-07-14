@@ -11,7 +11,7 @@ public class TestNG8_SDET {
 	}
 
 	/*
-	 * This data provider annotated method will provide the data to @Test method
+	 * This below mentioned data provider annotated method will provide the data to @Test method
 	 * Also this data can be provide to the same @Test method in different class
 	 * also (Refer SDET Tutorial 09) To use @DataProvider annotation, first we have
 	 * to give the name to the method Which will be given to test method, because
