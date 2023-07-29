@@ -28,13 +28,5 @@ public class TestNG_Parallel_Part2 {
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();     // We can open this with ChromeDriver also
 		driver.get("https://www.iloveimg.com/convert-to-jpg/webp-to-jpg");
-	}
-	
-	/*
-	 * Situation - methods are 2, thread-count = 2, if we run xml file It will
-	 * allocate different id for 2 methods like below in console
-	 * This is TC2 logic: 17 
-	 * This is TC1 logic: 16
-	 */
-	
+	}	
 }
