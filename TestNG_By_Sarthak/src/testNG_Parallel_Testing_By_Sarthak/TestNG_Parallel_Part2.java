@@ -26,7 +26,7 @@ public class TestNG_Parallel_Part2 {
 		System.out.println("This is TC5 logic: " + Thread.currentThread().getId());
 		// We can open this with ChromeDriver also
 		WebDriverManager.chromedriver().setup();
-		driver= new ChromeDriver();     // We can open this with ChromeDriver also
+		driver= new ChromeDriver();     // We can open this with FirefoxDriver also
 		driver.get("https://www.iloveimg.com/convert-to-jpg/webp-to-jpg");
 	}	
 }
