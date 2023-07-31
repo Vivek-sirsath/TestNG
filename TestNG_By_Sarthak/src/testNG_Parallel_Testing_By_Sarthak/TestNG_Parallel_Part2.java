@@ -10,9 +10,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestNG_Parallel_Part2 {
 	WebDriver driver;
 
-   /* If we wish to execute one method 'tc1' in multiple threads
-	* Thread means instances
-	*/
 	@Test
 	public void tc4() {
 		System.out.println("This is TC4 logic: " + Thread.currentThread().getId());
@@ -24,9 +21,8 @@ public class TestNG_Parallel_Part2 {
 	@Test
 	public void tc5() {
 		System.out.println("This is TC5 logic: " + Thread.currentThread().getId());
-		// We can open this with ChromeDriver also
 		WebDriverManager.chromedriver().setup();
-		driver= new ChromeDriver();     // We can open this with FirefoxDriver also
+		driver= new ChromeDriver();    
 		driver.get("https://www.iloveimg.com/convert-to-jpg/webp-to-jpg");
 	}	
 }

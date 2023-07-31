@@ -25,7 +25,7 @@ public class TestNG_Parallel_Part1 {
 		System.out.println("This is TC2 logic: " + Thread.currentThread().getId());
 		// We can open this with ChromeDriver also
 		WebDriverManager.firefoxdriver().setup();
-		driver= new FirefoxDriver();     // We can open this with ChromeDriver also
+		driver= new FirefoxDriver();
 		driver.get("https://testautomationpractice.blogspot.com/");
 	}
 	
