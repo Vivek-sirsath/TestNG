@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- If we wish to set the same parameter values to all test methods then, 
+		use the Parameter tag outside the test tag -->
+	<!-- If we wish to set specific parameter values to specific test method 
+		then use the Parameter tag inside the test tag -->
+
+	<!-- <parameter name="i" value="5"></parameter> 
+	     <parameter name="j" value="4"></parameter> -->
+	<test thread-count="5" name="Test">
+	<parameter name="AutomobileName" value="Maruti"></parameter>
+	<parameter name="SoftwareName" value="Google"></parameter>
+		<classes>
+			<class name="testNG_By_Prachi.Parameterization_AutomobileClass" />
+			<class name="testNG_By_Prachi.Parameterization_SoftwareClass" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
