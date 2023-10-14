@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="UAT Env Test">
+		<classes>
+			<class name="uatEnv.LoginUAT" />
+			<class name="uatEnv.RegUAT" />
+			<class name="uatEnv.LogoutUAT" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

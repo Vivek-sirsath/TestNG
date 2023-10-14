@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Prod Env Test">
+		<classes>
+			<class name="prodEnv.LoginProd" />
+			<class name="prodEnv.RegProd" />
+			<class name="prodEnv.LogoutProd" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
