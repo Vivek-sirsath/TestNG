@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Keyword1(failed)">
-    <parameter name="keyword" value="Selenium"/>
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testNG_By_Prachi.Parameterization_Google_Search">
+      <class name="extentReportBySarthak.PaymentTest">
         <methods>
-          <include name="googleSearch" invocation-numbers="0"/>
+          <include name="finish"/>
+          <include name="loginTest"/>
+          <include name="initializePaymentTest"/>
         </methods>
-      </class> <!-- testNG_By_Prachi.Parameterization_Google_Search -->
+      </class> <!-- extentReportBySarthak.PaymentTest -->
     </classes>
-  </test> <!-- Keyword1(failed) -->
-  <test thread-count="5" name="Keyword2(failed)">
-    <parameter name="keyword" value="Java"/>
-    <classes>
-      <class name="testNG_By_Prachi.Parameterization_Google_Search">
-        <methods>
-          <include name="googleSearch" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- testNG_By_Prachi.Parameterization_Google_Search -->
-    </classes>
-  </test> <!-- Keyword2(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
